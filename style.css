@@ -15,13 +15,44 @@ body{
 
 }
 #screen{
-width: 60vw; height: 30vh;
+    width: 60vw; height: 15vh;
+    padding: 13vh 0 2vh 0;
+    display: grid;
+    grid-template-columns: 40vw 20vw;
+
+}
+#result{
+    background-color: #1B1F24;
+    color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+#clean{
+    background-color: #5C677D;
+    color: #393e46;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
 }
 
+
 #keyboard{
-width: 60vw; height: 60vh;
-display: grid;
-grid-template-columns: repeat(4, auto);
+    width: 60vw; height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
 
 }
 .buton{
@@ -35,8 +66,8 @@ grid-template-columns: repeat(4, auto);
     align-items: center;
     font-size: 4vh;
     font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
