@@ -15,14 +15,28 @@ body{
 
 }
 #screen{
-background-color: red;
-opacity: 0.5;
 width: 60vw; height: 30vh;
 }
 
 #keyboard{
-background-color: blue;
-opacity: 0.5;
 width: 60vw; height: 60vh;
+display: grid;
+grid-template-columns: repeat(4, auto);
+
+}
+.buton{
+    background-color: #FFD369;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 
 }
