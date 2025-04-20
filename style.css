@@ -14,16 +14,22 @@ body{
     flex-direction: column;
 
 }
+#mainTitle{
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #screen{
     width: 60vw; height: 15vh;
-    padding: 13vh 0 2vh 0;
+    /* padding: 13vh 0 2vh 0; */
     display: grid;
     grid-template-columns: 40vw 20vw;
 
 }
 #result{
     background-color: #1B1F24;
-    color: aliceblue;
+    color: wheat;
     border-radius: 30px;
     display: flex;
     justify-content: center;
