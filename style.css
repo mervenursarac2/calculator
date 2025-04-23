@@ -22,7 +22,6 @@ body{
 }
 #screen{
     width: 60vw; height: 15vh;
-    /* padding: 13vh 0 2vh 0; */
     display: grid;
     grid-template-columns: 40vw 20vw;
 
@@ -34,11 +33,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    text-align: right;
+    font-size: 4vh;
     padding: 5px;
     margin: 5px;
 
 }
-#clean{
+.clear{
     background-color: #5C677D;
     color: #393e46;
     border-radius: 50px;
@@ -50,8 +52,13 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    border: none;
     padding: 5px;
     margin: 5px;
+}
+.clear:hover{
+    background-color: #393e46;
+    color: #5C677D;
 }
 
 
@@ -61,9 +68,10 @@ body{
     grid-template-columns: repeat(4, auto);
 
 }
-.buton{
+button{
     background-color: #FFD369;
     color: black;
+    border: none;
     padding: 5px;
     margin: 5px;
     border-radius: 50%;
@@ -76,4 +84,14 @@ body{
     font-weight: 400;
     font-style: normal;
 
+}
+
+button:hover{
+    background-color: #393e46 ;
+    color: #FFD369;
+}
+
+.opr:hover{
+    background-color: #393e46 ;
+    color: #FFD369;
 }
